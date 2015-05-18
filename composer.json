@@ -1,0 +1,26 @@
+{
+    "name": "clue/quassel-proxy",
+    "type": "project",
+    "description": "An experimental Quassel IRC proxy and protocol inspector",
+    "keywords": ["Quassel", "IRC", "CLI"],
+    "homepage": "https://github.com/clue/quassel-proxy",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Lück",
+            "email": "christian@lueck.tv"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Clue\\QuasselProxy\\": "src/"}
+    },
+    "require": {
+        "php": ">=5.3",
+        "clue/quassel-react": "~0.2.0",
+        "react/event-loop": "~0.4.0|~0.3.0",
+        "react/socket-client": "~0.4.0|~0.3.0",
+        "react/dns": "~0.4.0|~0.3.0",
+        "react/socket": "~0.4.0|~0.4.0",
+        "clue/hexdump": "~0.2.0"
+    }
+}
